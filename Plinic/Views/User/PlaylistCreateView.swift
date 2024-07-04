@@ -57,12 +57,9 @@ struct PlaylistCreateView: View {
                             }
                             
                             Button(action: {
-                                randomAPI.getThumbnail() { result in
-                                    switch result {
-                                    case .success(let success):
-                                        self.imageUrl = success
-                                    case .failure(let failure):
-                                        _ = failure
+                                randomAPI.getThumbnailURL() { url in
+                                    if let url = url {
+                                        self.imageUrl = url
                                     }
                                 }
                             }, label: {

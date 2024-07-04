@@ -68,6 +68,7 @@ final class NetworkService {
         urlRequest.httpMethod = method.rawValue
         urlRequest.timeoutInterval = .init(10)
         
+        // FIXME: 인증 방식이 바뀌면 수정해야 할 부분
         urlRequest.setValue("Basic cGxpbmljOnBsaW5pYw==", forHTTPHeaderField: "Authorization")
         
         if let headers = headers {
@@ -122,7 +123,9 @@ final class NetworkService {
         urlRequest.httpMethod = method.rawValue
         urlRequest.timeoutInterval = .init(10)
         
+        // FIXME: 인증 방식이 바뀌면 수정해야 할 부분
         urlRequest.setValue("Basic cGxpbmljOnBsaW5pYw==", forHTTPHeaderField: "Authorization")
+        
         urlRequest.setValue("application/json", forHTTPHeaderField: "Content-Type")
         
         if let headers = headers {

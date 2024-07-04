@@ -57,8 +57,7 @@
 		D0C176B928D21A45007CB43F /* LoginContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C176B828D21A45007CB43F /* LoginContentView.swift */; };
 		D0E6E46A29046B0D00BA875A /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6E46929046B0D00BA875A /* PostDetail.swift */; };
 		D0E6E46C29046B6C00BA875A /* PlaylistDetial.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6E46B29046B6C00BA875A /* PlaylistDetial.swift */; };
-		D0F4D4CF28FD93F90085EB28 /* PlinicColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4D4CE28FD93F90085EB28 /* PlinicColors.swift */; };
-		D0F4D4D528FDAEB20085EB28 /* Keyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4D4D428FDAEB20085EB28 /* Keyboards.swift */; };
+		D0F4D4CF28FD93F90085EB28 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4D4CE28FD93F90085EB28 /* Color+.swift */; };
 		E84A3E082903AFB6007FAA78 /* PostAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84A3E072903AFB6007FAA78 /* PostAPI.swift */; };
 		E84A3E0A2903AFDB007FAA78 /* RandomAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84A3E092903AFDB007FAA78 /* RandomAPI.swift */; };
 		E84A3E0E2903B274007FAA78 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84A3E0D2903B274007FAA78 /* Post.swift */; };
@@ -81,8 +80,8 @@
 		E8C4A37229069A3900425064 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4A37129069A3900425064 /* MainTabBarView.swift */; };
 		E8C4A3772906FCF200425064 /* PlaylistAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4A3762906FCF200425064 /* PlaylistAPI.swift */; };
 		E8C6C58C29082DEF00479BDA /* RandomThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C6C58B29082DEF00479BDA /* RandomThumbnail.swift */; };
-		E8D0F39B290D105000E32C59 /* DefaultJsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D0F39A290D105000E32C59 /* DefaultJsonDecoder.swift */; };
 		E8D0F398290D0EFE00E32C59 /* Logger+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D0F397290D0EFE00E32C59 /* Logger+.swift */; };
+		E8D0F39B290D105000E32C59 /* DefaultJsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D0F39A290D105000E32C59 /* DefaultJsonDecoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,8 +137,7 @@
 		D0C176B828D21A45007CB43F /* LoginContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContentView.swift; sourceTree = "<group>"; };
 		D0E6E46929046B0D00BA875A /* PostDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetail.swift; sourceTree = "<group>"; };
 		D0E6E46B29046B6C00BA875A /* PlaylistDetial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDetial.swift; sourceTree = "<group>"; };
-		D0F4D4CE28FD93F90085EB28 /* PlinicColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlinicColors.swift; sourceTree = "<group>"; };
-		D0F4D4D428FDAEB20085EB28 /* Keyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboards.swift; sourceTree = "<group>"; };
+		D0F4D4CE28FD93F90085EB28 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		E84A3E072903AFB6007FAA78 /* PostAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAPI.swift; sourceTree = "<group>"; };
 		E84A3E092903AFDB007FAA78 /* RandomAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAPI.swift; sourceTree = "<group>"; };
 		E84A3E0D2903B274007FAA78 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -162,8 +160,8 @@
 		E8C4A37129069A3900425064 /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
 		E8C4A3762906FCF200425064 /* PlaylistAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistAPI.swift; sourceTree = "<group>"; };
 		E8C6C58B29082DEF00479BDA /* RandomThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomThumbnail.swift; sourceTree = "<group>"; };
-		E8D0F39A290D105000E32C59 /* DefaultJsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultJsonDecoder.swift; sourceTree = "<group>"; };
 		E8D0F397290D0EFE00E32C59 /* Logger+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+.swift"; sourceTree = "<group>"; };
+		E8D0F39A290D105000E32C59 /* DefaultJsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultJsonDecoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,8 +367,7 @@
 		D0F4D4CD28FD93BE0085EB28 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D0F4D4CE28FD93F90085EB28 /* PlinicColors.swift */,
-				D0F4D4D428FDAEB20085EB28 /* Keyboards.swift */,
+				D0F4D4CE28FD93F90085EB28 /* Color+.swift */,
 				E86ECD55290472090039D8BF /* View+.swift */,
 				D04F1B95290915E80020D80C /* UIImage+.swift */,
 				E86ECD57290472190039D8BF /* ViewDidLoadModifier.swift */,
@@ -611,7 +608,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0F4D4D528FDAEB20085EB28 /* Keyboards.swift in Sources */,
 				D0C176B928D21A45007CB43F /* LoginContentView.swift in Sources */,
 				E8C6C58C29082DEF00479BDA /* RandomThumbnail.swift in Sources */,
 				D0A54AC528ACA8DA0097010B /* PostContentView.swift in Sources */,
@@ -653,7 +649,7 @@
 				D04F1B96290915E80020D80C /* UIImage+.swift in Sources */,
 				D09B08BC29095FAB00C0389B /* OtherUserPlaylistView.swift in Sources */,
 				D04183E4289D26890045C907 /* UserProfileEditView.swift in Sources */,
-				D0F4D4CF28FD93F90085EB28 /* PlinicColors.swift in Sources */,
+				D0F4D4CF28FD93F90085EB28 /* Color+.swift in Sources */,
 				E876C08A2909159600237FF9 /* SearchResult.swift in Sources */,
 				D047BA5429057212008CA3E4 /* NoticeAPI.swift in Sources */,
 				E876C088290914B700237FF9 /* SearchAPI.swift in Sources */,

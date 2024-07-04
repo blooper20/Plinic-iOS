@@ -31,12 +31,9 @@ struct PlaylistView: View {
             }
         }
         .onAppear() {
-            playlistAPI.getPlaylistDetail(by: id) { result in
-                switch result {
-                case .success(let playlistDetail):
+            playlistAPI.getPlaylistDetail(by: id) { playlistDetail in
+                if let playlistDetail = playlistDetail {
                     self.playlistDetail = playlistDetail
-                case .failure(let error):
-                    print(error)
                 }
             }
         }

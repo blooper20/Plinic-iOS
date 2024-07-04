@@ -9,7 +9,8 @@ import Foundation
 
 final class SearchAPI: ObservableObject {
     
-    private let searchURL: String = ""
+    private let basePath: String = ""
+    
     private let networkService = NetworkService.init()
     
     /// 검색 결과에 대한 응답을 가져오는 함수
@@ -18,9 +19,9 @@ final class SearchAPI: ObservableObject {
         _ completion: @escaping ((Result<SearchResult, Error>) -> Void)
     ) {
         
+        // FIXME: mock data 반환중, API 구현시 변경
         completion(.success(.createMock()))
         
-        // MARK: API 미구현
 //        networkService.request(path: searchURL) { result in
 //            switch result {
 //            case .success(let data):

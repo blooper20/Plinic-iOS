@@ -9,15 +9,14 @@ import Foundation
 
 final class UserAPI: ObservableObject {
     
-    private let userPath: String = "/accounts"
+    private let basePath: String = "/accounts"
     
     private let networkService = NetworkService.init()
     
-    // MARK: 아직 계정이 없는듯
     /// 특정 유저 정보를 가져오는 함수
     func getUserInfo(by nickName: String, _ completion: @escaping ((Result<UserInfo, Error>) -> Void)) {
 //        let detailPath: String = "/profiles/\(nickName)"
-//        let requestPath: String = "\(userPath)\(detailPath)"
+//        let requestPath: String = "\(basePath)\(detailPath)"
         
         // MARK: 아니 왜 직접 문자열로 주소를 입력하면 되고 변수로 주면 안되냐고
         networkService.request(absolutePath: "https://plinic-api-server.ml/api/v1/accounts/profiles/plinic/") { result in

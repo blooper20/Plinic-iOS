@@ -60,17 +60,12 @@ struct PostHeaderView: View {
             .padding(.top, 2)
         }
         .onAppear(){
-            noticeAPI.getRecentNotice() { result in
-                switch result {
-                case .success(let notice):
-                    self.recentNotice = notice
-                    print(recentNotice)
-                case .failure(let failure):
-                    _ = failure
+            noticeAPI.getRecentNotice() { recentNotice in
+                if let recentNotice = recentNotice {
+                    self.recentNotice = recentNotice
                 }
             }
         }
-        
     }
 }
 
